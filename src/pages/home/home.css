@@ -1,0 +1,203 @@
+.home-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.home-left{
+    width: 18%;
+    background: rgb(2,0,36);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(4,2,57,1) 0%, rgba(9,9,121,1) 0%, rgba(165,4,200,1) 100%, rgba(0,212,255,1) 100%);
+    
+}
+.home-left-con{
+    display: flex;
+    margin-top: 35px;
+    align-items: center;
+}
+.home-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+.home-left-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+.home-left-text > p{
+    color: #ffff;
+    font-size: 18px;
+}
+.home-left-text > p > span{
+    font-size: 13px;
+    color: rgb(181, 177, 177);
+}
+
+/** right parts */
+.home-right{
+    width: 82%;
+    background-color: rgb(238, 234, 234);
+}
+.home-header{
+    height: 45px;
+    /* background-color: aqua; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,36,57,1) 0%, rgba(9,121,9,1) 0%, rgba(46,238,144,1) 0%, rgba(126,237,133,1) 50%, rgba(0,245,255,1) 100%, rgba(165,4,200,1) 100%);
+    font-size: 12px;
+    color: white;
+}
+.home-content-top{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.home-title{
+    font-size: 22px;
+    margin-left: 20px;
+}
+.home-search{
+    margin-left: 45%;
+    width: 250px;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: gray;
+    padding: 5px;
+}
+.home-add-student{
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 40px;
+    background-color: rgb(74, 215, 74);
+    color: white;
+    text-transform: capitalize;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.home-content-top > Link{
+    text-decoration: none;
+}
+
+/* delete icons style */
+.tableEmpeDelete, .tableEmpedit{
+    border: none;
+    outline: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+/* tables styles */
+/* Table styles */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .table-header th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .custom-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .custom-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .tableEmpedit, .tableEmpeDelete {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  
+  .tableEmpedit:hover .FaEdit {
+    color: #0056b3;
+  }
+  
+  .tableEmpeDelete:hover .FaTrashAlt {
+    color: #dc3545;
+  }
+  
+/* model styles */
+/* Modal styles */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .modal-button.yes {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .modal-button.no {
+    background-color: #6c757d;
+    color: white;
+  }
+  
